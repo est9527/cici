@@ -31,7 +31,6 @@ Hybrid端口和Trunk端口属于多个VLAN，所以需要设置缺省VLAN ID。�
 如果设置了端口的缺省VLAN ID，当端口接收到不带VLAN Tag的报文后，则将报文转发到属于缺省VLAN的端口；当端口发送带有VLAN Tag的报文时，
 如果该报文的VLAN ID与端口缺省的VLAN ID相同，则系统将去掉报文的VLAN Tag，然后再发送该报文。
 注：对于华为交换机缺省VLAN被称为“Pvid Vlan”， 对于思科交换机缺省VLAN被称为“Native Vlan”
-
 交换机接口出入数据处理过程如下：
 
 Acess端口收报文:
